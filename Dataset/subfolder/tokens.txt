@@ -1,0 +1,1 @@
+def write_to_file ( file , diff_list ) : NEWLINE INDENT file . write ( "-------------------------------\n" ) NEWLINE for i in range ( diff_list . __len__ ( ) ) : NEWLINE          file . write ( str ( diff_list [ i ] ) + "\n" ) NEWLINE  file . write ( "-------------------------------" ) NEWLINE 

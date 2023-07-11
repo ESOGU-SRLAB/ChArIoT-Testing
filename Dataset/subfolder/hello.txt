@@ -1,0 +1,1 @@
+'    def write_to_file(file, diff_list):\n    file.write("-------------------------------\n")\n    for i in range(diff_list.__len__()):\n        file.write(str(diff_list[i]) + "\n")\n    file.write("-------------------------------")\n'
