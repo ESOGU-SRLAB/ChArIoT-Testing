@@ -7,7 +7,7 @@ import tokenize
 from commit_to_diff import commit_to_diff
 from diff_to_tp import seperate_diffs
 from edit_actions import create_diff_files
-from abstraction import abstraction
+from abstraction import ASTNodeVisitor
 from lexico_grapher import create_vocab
 from refactor import refactor_duplicate
 from refactor import refactor_abstracted_files
